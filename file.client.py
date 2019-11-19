@@ -14,6 +14,6 @@ while True:
     sockfd.send(data)
     msg = sockfd.recv(1024)
     print("服务器信息：",msg.decode())
-
+print("修改完成")
 file.close()
 sockfd.close()
